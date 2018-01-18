@@ -1,5 +1,4 @@
 //Check if 2 binary trees are same or not
-
 class Solution 
 {
     public boolean isSameTree(TreeNode p, TreeNode q) 
