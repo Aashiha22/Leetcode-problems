@@ -54,3 +54,30 @@ class Solution
         }
     }
 } 
+
+Best solution: Postorder solution (during postorder subtract value of left and right respectively)
+
+class Solution 
+{
+    int result = 0;
+    public int findTilt(TreeNode root) 
+    {
+        postorder(root);
+        return result;
+    }
+    public int postorder(TreeNode root)
+    {
+        if(root == null)
+        {
+            return 0;
+        }
+        else
+        {
+            int left = postorder(root.left);
+            int right = postorder(root.right);
+            result = result + Math.abs(left - right);
+            return left+right+root.val;
+        }
+    }
+}
+
