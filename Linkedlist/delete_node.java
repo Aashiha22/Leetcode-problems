@@ -1,4 +1,4 @@
-//Delete node at a given position - iterative
+//Delete node at a given position - (iterative)
 
 Node Delete(Node head, int position) 
 {
