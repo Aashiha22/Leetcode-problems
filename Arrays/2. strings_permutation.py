@@ -1,6 +1,6 @@
-2.Check if string s1 contains permutation of other string:
+#Check if string s1 contains permutation of other string:
 
-Python(Time limit exceeded):
+#Python(Time limit exceeded):
 
 from itertools import permutations
 class Solution:
