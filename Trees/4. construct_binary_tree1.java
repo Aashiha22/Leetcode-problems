@@ -1,4 +1,4 @@
-// Construct binary tree from inorder and preorder traversals:
+// Construct binary tree from inorder and preorder traversals
 
 // Inorder: left, root, right
 // Preorder: root, left, right
